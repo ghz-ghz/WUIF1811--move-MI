@@ -3,6 +3,9 @@ footer{
 	height: 1.4rem;
 	width: 100%;
 	display: flex;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
 }
 footer .list{
 	width: 25%;
@@ -18,10 +21,14 @@ footer .list .icon{
 	height: 0.58rem;
 	display: flex;
 }
-footer .list .icon .iconfont{
+footer .list .icon img{
+	width:0.55rem ;
+	height: 0.55rem;
+}
+/* footer .list .icon .iconfont{
 	font-size: 0.58rem;
 	color: #7C7C7C;
-}
+} */
 footer .list .text{
 	font-size: 0.3rem;
 	margin-top: 0.03rem;
