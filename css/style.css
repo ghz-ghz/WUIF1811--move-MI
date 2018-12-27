@@ -9,7 +9,7 @@ main{
 	height: 100%;
 	padding-top: 1.72rem;
 	padding-bottom: 1.40rem;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .head{
 	width: 100%;
