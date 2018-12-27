@@ -60,7 +60,7 @@
 	max-width: calc(100% - 2.27rem);
 	padding: 0 0.46rem;
 	box-sizing: border-box;
-	background: #008000;
+	overflow-y:auto;
 }
 .goods-list::-webkit-scrollbar{
 	width: 0;
@@ -68,11 +68,59 @@
 }
 .goods-list .floor{
 	width: 100%;
-	height: 3rem;
-	background: red;
 }
 .goods-list .floor img{
 	width: 100%;
 	height: 100%;
 }
+.goods-list .products-box{
+	width: 100%;
+}
+.goods-list .products-box .category-name{
+	width: 100%;
+	height: 1.77rem;
+	margin-top: 0.34rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.goods-list .products-box .category-name .line{
+	width: 0.61rem;
+	height: 0.02rem;
+	background: #E0E0E0;
+}
+.goods-list .products-box .category-name span{
+	margin: 0 0.3rem;
+	font-size: 0.38rem;
+	color: #515151;
+}
+.goods-list .products-box .goods-box{
+	width: 100%;
+	height: 6.2rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.goods-list .products-box .goods-box>div{
+	width: 33.3333333333333%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.goods-list .products-box .goods-box>div img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.goods-list .products-box .goods-box>div p{
+	width: 100%;
+	font-size: 0.3rem;
+	color: #757575;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0.2rem 0.3rem;
+}	
+
 /* 商品列表结束 */
