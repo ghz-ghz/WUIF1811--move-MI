@@ -40,6 +40,12 @@
 	box-sizing: border-box;
 	padding: 0 .24rem;
 }
+.tel-box .tel-con input{
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	outline: none;
+	border:none;
+}
 .tel-box .top span{
 	font-size: 0.4rem;
 	color: #9b9b9b;
@@ -48,10 +54,6 @@
 	font-size: 0.37rem;
 	color: #9b9b9b;
 	margin: 0 .52rem 0 .3rem;
-}
-.tel-box .top em{
-	font-size: 0.5rem;
-	color: #9b9b9b;
 }
 .tel-box .bottom{
 	display: flex;

@@ -21,11 +21,11 @@ body{
 	height:1.5rem;
 	background: #f9b56e;
 	border-radius: 50%;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 }
-.touxiang-box img{
+.touxiang-box a img{
 	width: 1.26rem;
 	height:1.26rem;
 }
