@@ -152,12 +152,12 @@ main::-webkit-scrollbar{
 	font-size: 0.32rem;
 	color: #727272;
 }
-.goods-state-huanji .right{
+.goods-state-huanji .huanji-right{
 	display: flex;
-	margin-left: 0.5rem;
+	/* margin-left: 0.5rem; */
 	justify-content: space-between;
 }
-.goods-state-huanji .right p{
+.goods-state-huanji .huanji-right p{
 	color:#727272;
     font-size: 0.32rem;
 }
