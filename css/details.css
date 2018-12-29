@@ -1,0 +1,169 @@
+main{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+main::-webkit-scrollbar{
+	width: 0;
+}
+/* banner开始 */
+.banner-box{
+	width: 100%;
+}
+.banner-box .img-box{
+	width: 100%;
+	height: 11.9rem;
+	overflow-x: auto;
+	display: flex;
+	position: relative;
+}
+.banner-box .img-box::-webkit-scrollbar{
+	height: 0;
+}
+.banner-box .img-box img{
+	width: 100%;
+	height: 100%;
+}
+.banner-box .img-box1{
+	width: 100%;
+	height: 1.28rem;
+}
+.banner-box .img-box1 img{
+	width: 100%;
+	height: 100%;
+}
+.banner-box .img-box .icon{
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 50%;
+	font-size: 0.46rem;
+	background: #636164;
+	color: #fff;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner-box .img-box .fanhui-icon{
+	position:fixed;
+	left: 0.3rem;
+	top: 0.3rem;
+}
+.banner-box .img-box .fenxiang-icon{
+    position:fixed;
+    right: 0.3rem;
+    top: 0.3rem;
+}
+.banner-name-box{
+	width: 100%;
+	height: 0.64rem;
+	margin-top: 0.63rem;
+	padding: 0 0.48rem;
+	display: flex;
+}
+.banner-miaoshu-box{
+	width:100%;
+	height: 1.1rem;
+	padding: 0 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 0.32rem;
+	color: #747474;
+	letter-spacing:0.02rem;    
+}
+.banner-name-box .img-box{
+	width: 1.32rem;
+	height: 0.64rem;
+}
+.banner-name-box p{
+	font-size: 0.54rem;
+	color: #3c3c3c;
+	margin-left: 0.16rem;
+}
+.banner-name-box .img-box img{
+	width: 100%;
+	height: 100%;
+}
+.banner-box .price{
+	font-size: 0.54rem;
+	color: #ff6700;
+	padding: 0 0.48rem;
+	line-height:1.24rem ;
+}
+.banner-box .price i{
+	font-size: 0.4rem;
+	color: #ff6700;
+}
+/* banner结束 */
+/* 功能列表开始 */
+.gongneng-list{
+	width: 100%;
+	height:2.08rem;
+	display: flex;
+	overflow: auto;
+}
+.gongneng-list::-webkit-scrollbar{
+	height: 0;
+}
+.gongneng-list1{
+	width:2.53rem ;
+	height: 1.55rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-left: 0.01rem solid #DDDDDD;
+	flex-shrink: 0;
+}
+.gongneng-list .active{
+	border-left:none;
+}
+.gongneng-list1 .img-box{
+	width: 0.48rem;
+	height: 0.48rem;
+	display: flex;
+}
+.gongneng-list1 .img-box img{
+	width: 100%;
+	height: 100%;
+}
+.gongneng-list1 .text{
+	font-size: 0.32rem;
+	color: #474747;
+}
+.gongneng-list1 .size{
+	font-size: 0.27rem;
+	color: #676767;
+}
+/* 功能列表结束 */
+/* 商品状态开始 */
+.goods-state-huanji{
+	width:9.84rem;
+	height: 1.2rem;
+	border: 0.01rem solid #D6D6D6;
+	border-radius: 0.16rem;
+	margin: 0 0.48rem;
+	background: #F7F7F7;
+	display: flex;
+	align-items: center;
+	padding: 0 0.5rem;
+}
+.goods-state-huanji .huanji-left{
+	font-size: 0.32rem;
+	color: #727272;
+}
+.goods-state-huanji .right{
+	display: flex;
+	margin-left: 0.5rem;
+	justify-content: space-between;
+}
+.goods-state-huanji .right p{
+	color:#727272;
+    font-size: 0.32rem;
+}
+.goods-state-huanji i{
+	font-size: 0.37rem;
+	color: #FF6700;
+}
+
+/* 商品状态结束 */
