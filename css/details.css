@@ -147,21 +147,22 @@ main::-webkit-scrollbar{
 	display: flex;
 	align-items: center;
 	padding: 0 0.5rem;
+	display: flex;
+	justify-content: space-between;
 }
 .goods-state-huanji .huanji-left{
+	display: flex;
+}
+.goods-state-huanji .huanji-left .text1{
 	font-size: 0.32rem;
 	color: #727272;
 }
-.goods-state-huanji .huanji-right{
-	display: flex;
-	/* margin-left: 0.5rem; */
-	justify-content: space-between;
-}
-.goods-state-huanji .huanji-right p{
+.goods-state-huanji .huanji-left .text2{
 	color:#727272;
-    font-size: 0.32rem;
+	font-size: 0.32rem;
+	margin-left: 0.5rem;
 }
-.goods-state-huanji i{
+.goods-state-huanji .huanji-right{
 	font-size: 0.37rem;
 	color: #FF6700;
 }
